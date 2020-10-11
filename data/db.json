@@ -1,0 +1,96 @@
+{
+  "artists": [
+    {
+      "name": "Gorillaz",
+      "id": "1592906134995",
+      "founded": "1998",
+      "albums": [
+        {"title":"Gorillaz"},
+        {"title":"Demon Days"},
+          {"title":"Plastic Beach"},
+            {"title":"The Fall"},
+              {"title":"Humanz"},
+                {"title":"The Now Now"}
+      ]
+    },
+    {
+      "name": "Madonna",
+      "id": "1582906134999",
+      "age": "1983",
+      "albums": [
+       {"title": "Like A Virgin"},
+       {"title": "True Blue"},
+       {"title": "Like A Prayer"},
+       {"title": "The Immaculate Collection"},
+       {"title": "Evita"},
+       {"title": "Ray of Light"},
+       {"title": "Music"},
+       {"title": "American Life"},
+       {"title": "Confessions on a Dance Floor"},
+       {"title": "Hard Candy"},
+       {"title": "Celebration"},
+       {"title": " MDNA"}
+      ]
+    },
+    {
+      "name": "Led Zeppelin",
+      "id": "1592906434999",
+      "age": "1968",
+      "albums": [
+        {"title":"Led Zeppelin I"},
+        {"title":"Led Zeppelin II"},
+        {"title":"Led Zeppelin III"},
+       {"title": "Led Zeppelin IV"},
+        {"title":"Houses of the Holy"},
+        {"title":"Physical Graffiti"},
+        {"title":"Presence"},
+        {"title":"The Song Remains the Same"},
+        {"title":"In Through the Out Door"},
+        {"title":"Coda"}
+      ]
+    },
+    {
+      "name": "Peter Bjorn And John",
+      "id": "1592906134989",
+      "founded": "1999",
+      "albums": [
+       {"title": "Breakin' Point"},
+       {"title": "Darker Days"},
+       {"title": "Endless Dream"},
+       {"title": "Falling Out"},
+       {"title": "Gimme Some"},
+       {"title": "Living Thing"},
+       {"title": "Peter Bjorn and John"},
+       {"title": "Seaside Rock"},
+       {"title": "Writer's Block"}
+      ]
+    }
+  ],
+
+  "albums": [
+    {
+      "title": "Gorillaz",
+      "id": "1592906134999",
+      "year": "2001",
+      "artist": "Gorillaz"
+    },
+    {
+      "title": "Led Zeppelin",
+      "id": "1592906134998",
+      "year": "1969",
+      "artist": "Led Zeppelin"
+    },
+    {
+      "title": "Madonna",
+      "id": "1592906134997",
+      "year": "1998",
+      "artist": "Ray of Light"
+    },
+    {
+      "title": "Peter Bjorn And John",
+      "id": "1592906134996",
+      "year": "2006",
+      "artist": "Writer's Block"
+    }
+  ]
+}
