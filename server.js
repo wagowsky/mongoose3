@@ -7,6 +7,7 @@ const app=express()
 
 
 app.get("/",(req,res)=>{
+    res.status(200)
     res.send(req.protocol + '://' + req.get('host') + req.originalUrl)
 })
 
@@ -16,7 +17,7 @@ app.get("/",(req,res)=>{
 
  const connectDB=async(req)=>{
      try { console.log("trying to connect");
-     const conn = await mongoose.connect('mongodb://localhost:27017/test', {
+     const conn = await mongoose.connect('mongodb://localhost:27017/wagowsky', {
          useNewUrlParser: true,
          useCreateIndex: true,
          useUnifiedTopology: true})

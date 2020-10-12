@@ -20,10 +20,9 @@ const AlbumSchema =  mongoose.Schema({
   }
  
 
-},
-{collection:"inventory"},{model:"albums"});
+});
 
 // const Albumka="dss"
-const Album=mongoose.model('AlbumModel', AlbumSchema);
+const Album=mongoose.model('albums', AlbumSchema);
 
 module.exports = Album
